@@ -1,5 +1,5 @@
 ---
-title: "Crab Water"
+title: "Crab-Water Blog Series"
 listing:
   contents: posts
   sort: "date desc"

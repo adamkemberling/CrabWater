@@ -2,11 +2,11 @@ project:
   type: website
 
 website:
-  title: "Crab Water"
+  title: "Adam A. Kemberling"
   description: "This is a nonsensical personal blog by Adam Kemberling. Your trusted source for R & python hacks relating to marine science research."
   navbar:
     right:
-      - text: Blog
+      - text: DataSci Blog
       - href: blog.qmd
       - icon: github
         href: https://github.com/adamkemberling
@@ -14,8 +14,12 @@ website:
         href: https://twitter.com/KemberlingAdam
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
 
 editor: visual
+
+comments:
+  giscus:
+    repo: adamkemberling/CrabWater
 

@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "posts/new_sst_post/oisst_in_pythonr.html",
-    "href": "posts/new_sst_post/oisst_in_pythonr.html",
-    "title": "OISST Access in Python & R",
-    "section": "",
-    "text": "Much of the work I’ve done involves relating marine species to their preferred environments. One of the aspects of the environment I’ve studied the most\n\n\nI believe its important both to use the tools that best suit your interests and skills. However; I also believe it is important to be aware of what other avenues might exist. This workflow takes advantage of an environmental data distribution tool known as ERDDAP. This framework has API’s that interface with both python & R and I wanted to highlight how similar these interfaces R for researchers who might be looking for an example to show the paralells across the two languages.\n\n\nIn this demo we will be using a data product made available by NOAA known as Optimally Interpolated Sea Surface Temperature or OISST. This resource contains global sea surface temperatures dating back to September of 1981.\n\nlibrary(tidyverse)\nggplot(mpg) +\n  geom_jitter(aes(cty, hwy), size = 4, alpha = 0.5) \n\n\n\n\n\n\n\n\n\n\n\nTransforming OLS estimates\n\n\n\n\nCode\npreds_lm %>% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  theme_minimal(base_size = 12) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "```{r}\n#| echo: false\nlibrary(gmRi)\ngmRi::use_gmri_style_rmd(css_file = “gmri_rmarkdown.css”)\n```\nThis is my first blog post ever. Welcome!\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nSince this is my first post, this is also not going to be too involved…"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Crab Water",
-    "section": "",
-    "text": "remote sensing\n\n\nSea surface temperatures\n\n\npython\n\n\nr\n\n\n\n\nThis is my first blog post, showing how to access SST data globally in R & python.\n\n\n\n\n\n\nAug 24, 2022\n\n\nAdam A. Kemberling\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nhello world\n\n\n\n\n\n\n\n\n\n\n\nAug 23, 2022\n\n\nAdam A. Kemberling\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/new_sst_post/oisst_in_pythonr.html#why-r-python",
     "href": "posts/new_sst_post/oisst_in_pythonr.html#why-r-python",
     "title": "OISST Access in Python & R",
@@ -42,10 +7,31 @@
     "text": "Why R & python\nI believe its important both to use the tools that best suit your interests and skills. However; I also believe it is important to be aware of what other avenues might exist. This workflow takes advantage of an environmental data distribution tool known as ERDDAP. This framework has API’s that interface with both python & R and I wanted to highlight how similar these interfaces R for researchers who might be looking for an example to show the paralells across the two languages.\n\nAccessing SST ovia ERDDAP\nIn this demo we will be using a data product made available by NOAA known as Optimally Interpolated Sea Surface Temperature or OISST. This resource contains global sea surface temperatures dating back to September of 1981.\n\nERDDAP Access Tools\nThe two main steps to accessing SST data, and other resources on ERDDAP are: 1. Locating the ERDDAP server and data resource 2. Using an api tool like rerddap or erdappy to generate URL’s for ERDDAP\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nA work by Adam A. Kemberling\nAkemberling@gmri.org"
   },
   {
-    "objectID": "posts/welcome/index.html#why-am-i-doing-this",
-    "href": "posts/welcome/index.html#why-am-i-doing-this",
+    "objectID": "posts/welcome/welcome_post.html",
+    "href": "posts/welcome/welcome_post.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is my first blog post ever. Welcome!\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nSince this is my first post, this is also not going to be too involved…"
+  },
+  {
+    "objectID": "posts/welcome/welcome_post.html#why-am-i-doing-this",
+    "href": "posts/welcome/welcome_post.html#why-am-i-doing-this",
     "title": "Welcome To My Blog",
     "section": "Why am I doing this?",
-    "text": "Why am I doing this?\nI’ve learned a ton about R and python from my peers. I see this as an opportunity to give back to the open-source community that has shaped my career.\n```{r}\n#| echo: false\ngmRi::insert_gmri_footer(“akemberling_gmri_footer.html”)\n```"
+    "text": "Why am I doing this?\nI’ve learned a ton about R and python from my peers. I see this as an opportunity to give back to the open-source community that has shaped my career.\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nA work by Adam A. Kemberling\nAkemberling@gmri.org"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Adam A. Kemberling",
+    "section": "",
+    "text": "This is the personal website and blog about me, Adam Kemberling. I am a marine science researcher and data scientist located in Portland, ME. This site and its posts are home to research and programming tricks that I’ve found useful in my career. Here is where I will be sharing quick tutorials on ocean warming and marine ecology workflows, interspersed between pictures of my dog and my scattered thoughts about a career studying climate change.\nCheers!"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Crab-Water Blog Series",
+    "section": "",
+    "text": "remote sensing\n\n\nSea surface temperatures\n\n\npython\n\n\nr\n\n\n\n\nThis is my first blog post, showing how to access SST data globally in R & python.\n\n\n\n\n\n\nAug 24, 2022\n\n\nAdam A. Kemberling\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nhello world\n\n\n\n\n\n\n\n\n\n\n\nAug 23, 2022\n\n\nAdam A. Kemberling\n\n\n\n\n\n\nNo matching items"
   }
 ]

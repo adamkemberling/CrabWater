@@ -5,15 +5,12 @@ date: "2022-08-23"
 categories: [hello world]
 ---
 
-\`\`\`{r}
-
-#\| echo: false
-
+```{r}
+#| echo: false
 library(gmRi)
-
 gmRi::use_gmri_style_rmd(css_file = "gmri_rmarkdown.css")
 
-\`\`\`
+```
 
 This is my first blog post ever. Welcome!
 
@@ -27,10 +24,9 @@ Since this is my first post, this is also not going to be too involved...
 
 I've learned a ton about R and python from my peers. I see this as an opportunity to give back to the open-source community that has shaped my career.
 
-\`\`\`{r}
-
-#\| echo: false
+```{r}
+#| echo: false
 
 gmRi::insert_gmri_footer("akemberling_gmri_footer.html")
 
-\`\`\`
+```

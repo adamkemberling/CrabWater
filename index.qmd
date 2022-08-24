@@ -1,19 +1,23 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Adam A. Kemberling"
+description: "This is the personal website and blog of Adam Kemberling."
+image: profile.jpeg
 about:
   template: jolla
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/KemberlingAdama
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://linkedin.com/adam-kemberling-630a5984
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/adamkemberling
 ---
 
 About this blog
+
+I am a marine science researcher and data scientist located in Portland, ME. This site and its posts are home to research and programming tricks that I've found useful in my career. Here is where I will be sharing quick tutorials on ocean warming and marine ecology workflows, interspersed between pictures of my dog and my scattered thoughts about a career studying climate change.
+
+Cheers!
