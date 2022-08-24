@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/new_sst_post/oisst_in_pythonr.html",
+    "href": "posts/new_sst_post/oisst_in_pythonr.html",
+    "title": "OISST Access in Python & R",
+    "section": "",
+    "text": "Much of the work I’ve done involves relating marine species to their preferred environments. One of the aspects of the environment I’ve studied the most\n\n\nI believe its important both to use the tools that best suit your interests and skills. However; I also believe it is important to be aware of what other avenues might exist. This workflow takes advantage of an environmental data distribution tool known as ERDDAP. This framework has API’s that interface with both python & R and I wanted to highlight how similar these interfaces R for researchers who might be looking for an example to show the paralells across the two languages.\n\n\nIn this demo we will be using a data product made available by NOAA known as Optimally Interpolated Sea Surface Temperature or OISST. This resource contains global sea surface temperatures dating back to September of 1981.\n\nlibrary(tidyverse)\nggplot(mpg) +\n  geom_jitter(aes(cty, hwy), size = 4, alpha = 0.5) \n\n\n\n\n\n\n\n\n\n\n\nTransforming OLS estimates\n\n\n\n\nCode\npreds_lm %>% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  theme_minimal(base_size = 12) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nSince this is my first post, this is also not going to be too involved…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Crab Water",
+    "section": "",
+    "text": "remote sensing\n\n\nSea surface temperatures\n\n\npython\n\n\nr\n\n\n\n\nThis is my first blog post, showing how to access SST data globally in R & python.\n\n\n\n\n\n\nAug 24, 2022\n\n\nAdam A. Kemberling\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nhello world\n\n\n\n\n\n\n\n\n\n\n\nAug 23, 2022\n\n\nAdam A. Kemberling\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/new_sst_post/oisst_in_pythonr.html#why-r-python",
+    "href": "posts/new_sst_post/oisst_in_pythonr.html#why-r-python",
+    "title": "OISST Access in Python & R",
+    "section": "Why R & python",
+    "text": "Why R & python\nI believe its important both to use the tools that best suit your interests and skills. However; I also believe it is important to be aware of what other avenues might exist. This workflow takes advantage of an environmental data distribution tool known as ERDDAP. This framework has API’s that interface with both python & R and I wanted to highlight how similar these interfaces R for researchers who might be looking for an example to show the paralells across the two languages.\n\nAccessing SST ovia ERDDAP\nIn this demo we will be using a data product made available by NOAA known as Optimally Interpolated Sea Surface Temperature or OISST. This resource contains global sea surface temperatures dating back to September of 1981.\n\nERDDAP Access Tools\nThe two main steps to accessing SST data, and other resources on ERDDAP are: 1. Locating the ERDDAP server and data resource 2. Using an api tool like rerddap or erdappy to generate URL’s for ERDDAP\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nA work by Adam A. Kemberling\nAkemberling@gmri.org"
+  }
+]
