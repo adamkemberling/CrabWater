@@ -60,7 +60,7 @@ ul.task-list{list-style: none;}
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -129,19 +129,40 @@ ul.task-list{list-style: none;}
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why-am-i-doing-this" id="toc-why-am-i-doing-this" class="nav-link active" data-scroll-target="#why-am-i-doing-this">Why am I doing this?</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<p>```{r}</p>
+<p>#| echo: false</p>
+<p>library(gmRi)</p>
+<p>gmRi::use_gmri_style_rmd(css_file = “gmri_rmarkdown.css”)</p>
+<p>```</p>
 <p>This is my first blog post ever. Welcome!</p>
 <p><img src="thumbnail.jpg" class="img-fluid"></p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 <p>Since this is my first post, this is also not going to be too involved…</p>
+<section id="why-am-i-doing-this" class="level2">
+<h2 class="anchored" data-anchor-id="why-am-i-doing-this">Why am I doing this?</h2>
+<p>I’ve learned a ton about R and python from my peers. I see this as an opportunity to give back to the open-source community that has shaped my career.</p>
+<p>```{r}</p>
+<p>#| echo: false</p>
+<p>gmRi::insert_gmri_footer(“akemberling_gmri_footer.html”)</p>
+<p>```</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
